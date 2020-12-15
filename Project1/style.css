@@ -1,0 +1,150 @@
+html,body {
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    text-align: center;
+    text-justify: inter-word;
+    padding: 100px 300px 100px 300px;
+}
+.containerBlack {
+    background-color: black;
+    color: white;
+    position: relative;
+    /* text-align: center; */
+    text-justify: inter-word;
+    padding: 50px 300px 50px 300px;
+}
+.container p {
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    margin: 50px 0 50px 0;;
+  }
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px ;
+    font-size: 30px;
+}
+.card > img {
+    width: 60%;
+}
+.card  p{
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.bg {
+    background-color: black;
+    color: white;
+}
+.desc {
+    text-align: center;
+    padding: 20px;
+}
+#ul {
+    background-color: white;
+    color: black;
+    /* float: left; */
+    text-align: none;
+}
+.listInfo {
+    background-color: white !important;
+    color: black
+} 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    /* overflow: hidden; */
+    background-color: black;
+}
+li {
+    display: inline;
+}
+#ul li {
+    display: inline-block;
+    margin: 7px auto 7px 30px;
+}
+img {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.soldout {
+    border: 2px solid white;
+    background-color: salmon;
+    padding: 4px; 
+    color: white
+}
+.dropbtn:hover a {
+    color: grey;
+}
+.dropbtn {
+    background-color:black;
+    color: white;
+    padding: 16px;
+    width: 100px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover {
+    background-color: silver;
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: grey}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: silver;
+color: grey;
+}
+.search:hover {
+    background-color: salmon
+    ;
+}
